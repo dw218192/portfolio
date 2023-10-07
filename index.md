@@ -10,7 +10,7 @@
 ---
 
 ## [Procedural Fireball](https://dw218192.github.io/hw01-fireball/)
-<img src="images/demo.gif"/>
+<img src="images/fireball.gif"/>
 
 ---
 
