@@ -5,17 +5,17 @@
 
 # Projects
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/blob/main/README.md)
-<img src="images/pt.png"/>
+<img src="images/proj/pt.png"/>
 
 ---
 
 ## [Procedural Fireball](https://dw218192.github.io/hw01-fireball/)
-<img src="images/fireball.gif"/>
+<img src="images/proj/fireball.gif"/>
 
 ---
 
 ## [Houdini Jellyfish](https://github.com/dw218192/hw02-jellyfish/blob/main/README.md)
-<img src="images/jellyfish.png"/>
+<img src="images/proj/jellyfish.png"/>
 
 ---
 
