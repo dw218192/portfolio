@@ -4,17 +4,25 @@
 ---
 
 # Projects
-## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/blob/main/README.md)
+## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
 <img src="images/proj/pt.png"/>
 
 ---
 
-## [Procedural Fireball](https://dw218192.github.io/hw01-fireball/)
+## [CUDA Boid Simulation](https://github.com/dw218192/Project1-CUDA-Flocking/)
+<img src="images/proj/boid.gif"/>
+
+## [BlossomPro: Procedural Flower Modeling Plugin for Maya](https://github.com/dw218192/BlossomPro/)
+<img src="images/proj/blossompro.png"/>
+
+---
+
+## [Procedural Fireball using WebGL](https://dw218192.github.io/hw01-fireball/)
 <img src="images/proj/fireball.gif"/>
 
 ---
 
-## [Houdini Jellyfish](https://github.com/dw218192/hw02-jellyfish/blob/main/README.md)
+## [Houdini Jellyfish](https://github.com/dw218192/hw02-jellyfish/)
 <img src="images/proj/jellyfish.png"/>
 
 ---
