@@ -1,35 +1,23 @@
 ## Portfolio
+[Switch to Chinese/切换到中文](/index_cn)
+---
+
+### Projects
+[CUDA Path Tracer](/sample_page)
+<img src="images/pt.png"/>
+---
+
+### Itch.io Games
+[No Escape](https://dw218192.itch.io/noescape)
+<img src="images/games/no_escape.jpg"/>
+---
+
+[Santa Rush](https://dw218192.itch.io/santarush)
+<img src="images/games/santa_rush.png"/>
 
 ---
 
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Mingle](https://dw218192.itch.io/mingle)
+<img src="images/games/mingle.png"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
