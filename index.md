@@ -1,7 +1,9 @@
-# Portfolio
-[Switch to Chinese/切换到中文](/portfolio/index_cn)
+<!--- [Switch to Chinese/切换到中文](/portfolio/index_cn) --->
 
----
+# Index
+- [Projects](#projects)
+- [Itch.io Games](#itchio-games)
+
 
 # Projects
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
