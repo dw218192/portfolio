@@ -4,6 +4,7 @@
 - [Projects](#projects)
 - [Itch.io Games](#itchio-games)
 
+---
 
 # Projects
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
@@ -11,6 +12,9 @@
 
 ## [BlossomPro: Procedural Flower Modeling Plugin for Maya](https://github.com/dw218192/BlossomPro/)
 <img src="images/proj/blossompro.png"/>
+
+## [GPUVerb: Interactive sound propagation for dynamic scenes using 2D wave simulation](https://github.com/GPUVerb/GPUVerb)
+<img src="images/proj/gpuverb.gif"/>
 
 ## [Vulkan Grass Rendering](https://github.com/dw218192/Project5-Vulkan-Grass-Rendering)
 <img src="images/proj/grass.gif"/>
