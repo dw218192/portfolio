@@ -22,6 +22,9 @@
 ## [CUDA Boid Simulation](https://github.com/dw218192/Project1-CUDA-Flocking/)
 <img src="images/proj/boid.gif"/>
 
+## [Houdini LEGO-ified Mesh Generator](https://github.com/dw218192/hw03-legos)
+<img src="images/proj/lego.png"/>
+
 ## [Procedural Fireball using WebGL](https://dw218192.github.io/hw01-fireball/)
 <img src="images/proj/fireball.gif"/>
 
