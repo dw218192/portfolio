@@ -7,7 +7,7 @@
 ---
 
 # Projects
-## [Sketching Effect Shader](https://github.com/dw218192/hw04-stylization)
+## [Pen Sketching Shader](https://github.com/dw218192/hw04-stylization)
 <img width=400 src="images/proj/pencil.gif"/>
 
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
