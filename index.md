@@ -1,15 +1,5 @@
 <!--- [Switch to Chinese/切换到中文](/portfolio/index_cn) --->
-
-# Index
-- [Projects](#projects)
-- [Itch.io Games](#itchio-games)
-
----
-
 # Projects
-## [Pen Sketching Shader](https://github.com/dw218192/hw04-stylization)
-<img width=400 src="images/proj/pencil.gif"/>
-
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
 <img src="images/proj/pt.png"/>
 
@@ -25,6 +15,11 @@
 ## [CUDA Boid Simulation](https://github.com/dw218192/Project1-CUDA-Flocking/)
 <img src="images/proj/boid.gif"/>
 
+---
+# Technical Art
+## [Pen Sketching Shader](https://github.com/dw218192/hw04-stylization)
+<img width=400 src="images/proj/pencil.gif"/>
+
 ## [Houdini LEGO-ified Mesh Generator](https://github.com/dw218192/hw03-legos)
 <img src="images/proj/lego.png"/>
 
@@ -33,7 +28,6 @@
 
 ## [Houdini Jellyfish](https://github.com/dw218192/hw02-jellyfish/)
 <img src="images/proj/jellyfish.png"/>
-
 ---
 
 # Itch.io Games
