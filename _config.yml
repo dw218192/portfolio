@@ -7,6 +7,7 @@ description: > # your text below (remove <br> elements if you don't need line br
 show_downloads: false
 mail_addr: tongweid@gmail.com
 linkedin_url: https://www.linkedin.com/in/tongwei-dai-583350177
+portfolio_url: ./files/Tongwei_Dai_Resume.pdf
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
