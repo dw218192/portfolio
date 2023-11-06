@@ -38,6 +38,19 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
          </ul>
          {% endif %}
+         <table id="contacts" width="240">
+            <tr>
+                <td>
+                    <a href="mailto:{{ site.mail_addr }}"><img src="/images/icons/mail.png" width="28" height="28" alt="send mail" /></a>
+                </td>
+                <td>
+                    <a href="{{ site.github.owner_url }}" , target="_blank"><img src="/images/icons/github.png" width="28" height="28" alt="Github" /></a>
+                </td>
+                <td>
+                    <a href="{{ site.linkedin_url }}" , target="_blank"><img src="/images/icons/linkedin.png" width="28" height="28" alt="Linkedin" /></a>
+                </td>
+            </tr>
+        </table>
       </header>
       <section>
          {{ content }}

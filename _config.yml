@@ -4,15 +4,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi all, welcome to my portfolio page!
   I'm a graduate student of Computer Graphics at the University of Pennsylvania.
   I'm open to any work opportunities in Game Development and Software Engineering! 
-  <br><br>
-  Email: tongweid@gmail.com
-  <br><br>
-  Cell:  (+1)7166229793
-  <br><br>
-  <a href="https://www.linkedin.com/in/tongwei-dai-583350177/">View My LinkedIn Profile</a>
-  <br><br>
-  <a href="https://github.com/dw218192/">View My GitHub Profile</a>
-  
+show_downloads: false
+mail_addr: tongweid@gmail.com
+linkedin_url: https://www.linkedin.com/in/tongwei-dai-583350177
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
