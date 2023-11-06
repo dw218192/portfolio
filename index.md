@@ -34,6 +34,7 @@
 
 ## [Houdini Jellyfish](https://github.com/dw218192/hw02-jellyfish/)
 <img src="images/proj/jellyfish.png"/>
+
 ---
 
 # Itch.io Games
