@@ -27,6 +27,7 @@
 <video width="100%" controls>
   <source src="https://github.com/dw218192/hw04-stylization/assets/31294154/bf364049-0ecb-4ab2-8273-3aacfc108bfe" type="video/mp4">
 </video>
+<br>
 
 ## [Houdini LEGO-ified Mesh Generator](https://github.com/dw218192/hw03-legos)
 <img src="images/proj/lego.png"/>
