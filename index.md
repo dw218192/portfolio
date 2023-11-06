@@ -4,6 +4,7 @@
 <video width="100%" controls>
   <source src="https://github.com/dw218192/PTStudio/assets/31294154/6c956cb8-3d53-4e00-8419-cb108d74fecd" type="video/mp4">
 </video>
+<br>
 
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
 <img src="images/proj/pt.png"/>
