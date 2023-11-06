@@ -38,7 +38,35 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
          </ul>
          {% endif %}
-         <table id="contacts" width="240">
+
+         <style>
+            .icon-container {
+              position: relative;
+              display: inline-block;
+            }
+          
+            .icon-container .qr-wrapper {
+              position: absolute;
+              width: 200px; /* Adjust as needed for your QR code */
+              height: 200px; /* Adjust as needed for your QR code */
+              left: 50%;
+              transform: translateX(10%);
+              bottom: 0%; /* Adjust to position the QR code */
+              display: none;
+              z-index: 10; /* Ensure it's above other elements */
+            }
+            .icon-container:hover .qr-wrapper {
+              display: block;
+            }
+            .qr-code {
+              width: 100%;
+              height: auto;
+            }
+          </style>
+          </head>
+          <body>
+          
+          <table id="contacts" width="240">
             <tr>
                 <td>
                   <a href="mailto:{{ site.mail_addr }}"><img src="./images/icons/mail.png" width="28" height="28" alt="send mail" /></a>
@@ -56,10 +84,18 @@
                   <a href="{{ site.itchio_url }}" , target="_blank"><img src="./images/icons/itchio.png" width="28" height="28" alt="Itch.io" /></a>
                 </td>
                 <td>
-                  <a href="{{ site.wechat_url }}", target="_blank"><img src="./images/icons/wechat.png" width="28" height="28" alt="Wechat" /></a>
-               </td>
+                  <div class="icon-container">
+                    <a href="{{ site.wechat_url }}" target="_blank">
+                      <img src="./images/icons/wechat.png" width="28" height="28" alt="WeChat" />
+                      <div class="qr-wrapper">
+                        <img src="./images/wechat_qr.jpg" class="qr-code" alt="QR Code" />
+                      </div>
+                    </a>
+                  </div>
+                </td>
             </tr>
-        </table>
+          </table>
+          
         <style>
          ul li{
            font-size:18px;
