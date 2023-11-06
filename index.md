@@ -24,7 +24,9 @@
 ---
 # Technical Art
 ## [Pen Sketching Shader](https://github.com/dw218192/hw04-stylization)
-<img width=400 src="images/proj/pencil.gif"/>
+<video width="100%" controls>
+  <source src="https://github.com/dw218192/hw04-stylization/assets/31294154/bf364049-0ecb-4ab2-8273-3aacfc108bfe" type="video/mp4">
+</video>
 
 ## [Houdini LEGO-ified Mesh Generator](https://github.com/dw218192/hw03-legos)
 <img src="images/proj/lego.png"/>
