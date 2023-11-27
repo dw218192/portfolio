@@ -1,6 +1,10 @@
 <!--- [Switch to Chinese/切换到中文](/portfolio/index_cn) --->
 # Projects
-## [PTStudio: Modular 3D Engine](https://github.com/dw218192/PTStudio)
+## [PTStudio: Multi-backend 3D Renderer and Editor](https://github.com/dw218192/PTStudio)
+<img src="images/proj/pt_studio.png" width="100%"/>
+<video width="100%" controls>
+  <source src="https://github.com/dw218192/PTStudio/assets/31294154/4116308d-ee31-4d20-a449-f130d11fe253" type="video/mp4">
+</video>
 <video width="100%" controls>
   <source src="https://github.com/dw218192/PTStudio/assets/31294154/6c956cb8-3d53-4e00-8419-cb108d74fecd" type="video/mp4">
 </video>
