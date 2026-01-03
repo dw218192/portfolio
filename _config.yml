@@ -3,7 +3,6 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Hi all, welcome to my portfolio page!
   I'm currently a software engineer at Nvidia.
-  This site has now been archived, which showcases projects I did in my school years.
 show_downloads: false
 mail_addr: tongweid@gmail.com
 linkedin_url: https://www.linkedin.com/in/tongwei-dai-583350177

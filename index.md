@@ -1,5 +1,15 @@
 <!--- [Switch to Chinese/切换到中文](/portfolio/index_cn) --->
 # Projects
+---
+
+## [Differentiable rendering via path replay for material optimization](https://github.com/dw218192/diffpt-warp)
+<video width="100%" controls>
+  <source src="https://github.com/user-attachments/assets/1a08466d-fe19-4125-b05e-05b85c06741b" type="video/mp4">
+</video>
+<img src="images/proj/diffpt/cornell_bunny_target.png" width="100%" />
+<img src="images/proj/diffpt/brdf_viewer.png" width="100%" />
+
+---
 ## [PTStudio: Multi-backend 3D Renderer and Editor](https://github.com/dw218192/PTStudio)
 <img src="images/proj/pt_studio.png" width="100%"/>
 <video width="100%" controls>
@@ -10,6 +20,7 @@
 </video>
 <br>
 
+---
 ## [CUDA Path Tracer](https://github.com/dw218192/Project3-CUDA-Path-Tracer/)
 <img src="images/proj/pt.png"/>
 
