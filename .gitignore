@@ -1,3 +1,16 @@
-\_site
+_site/
+_site_staging/
+_site_old/
+_log/
+.jekyll-cache/
 Gemfile
 Gemfile.lock
+tools/framework/_managed/
+
+# repokit
+repo
+repo.cmd
+repo.ps1
+_agent/
+config.local.yaml
+__pycache__/

@@ -1,0 +1,16 @@
+repo:
+  features: [python, sdk]
+  extra_deps:
+    - "waitress>=3.0"
+
+deploy:
+  port: 8082
+  log_dir: "{workspace_root}/_log"
+
+clean:
+  paths+:
+    - "{workspace_root}/_site"
+    - "{workspace_root}/_site_staging"
+    - "{workspace_root}/_site_old"
+    - "{workspace_root}/_log"
+    - "{workspace_root}/.jekyll-cache"
