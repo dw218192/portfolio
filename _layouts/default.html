@@ -105,11 +105,24 @@
          ul li{
            font-size:18px;
          }
+         img.project-media {
+           width: 100%;
+           max-height: 400px;
+           object-fit: contain;
+           display: block;
+           margin: 0.5em 0;
+         }
+         video.project-media {
+           width: 100%;
+           max-height: 400px;
+           display: block;
+           margin: 0.5em 0;
+         }
         </style>
         <ul id="index">
-         <li><a href="#projects" target="_self">Projects</a></li>
-         <li><a href="#technical-art" target="_self">Technical Art</a></li>
-         <li><a href="#itchio-games" target="_self">Itch.io Games</a></li>
+         {% for cat in site.portfolio_sections %}
+         <li><a href="#{{ cat.id }}" target="_self">{{ cat.title }}</a></li>
+         {% endfor %}
         </ul>
       </header>
       <section>

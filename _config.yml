@@ -9,7 +9,20 @@ linkedin_url: https://www.linkedin.com/in/tongwei-dai-583350177
 portfolio_url: ./files/Tongwei_Dai_Resume.pdf
 itchio_url: https://dw218192.itch.io/
 wechat_url: ./wechat_page.md
+repository: dw218192/portfolio
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+collections:
+  projects:
+    output: false
+
+portfolio_sections:
+  - id: projects
+    title: Projects
+  - id: technical-art
+    title: Technical Art
+  - id: games
+    title: Itch.io Games
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

@@ -29,23 +29,23 @@ class DeployTool(RepoTool):
 
     def setup(self, cmd: click.Command) -> click.Command:
         cmd = click.option(
-            "--port", type=int, default=8082, help="Port for the static file server"
+            "--port", type=int, default=None, help="Port for the static file server (default: 8082)"
         )(cmd)
         cmd = click.option(
-            "--host", default="0.0.0.0", help="Host to bind the static file server"
+            "--host", default=None, help="Host to bind the static file server (default: 0.0.0.0)"
         )(cmd)
         cmd = click.option(
             "--skip-build", is_flag=True, default=False, help="Skip Jekyll build step"
         )(cmd)
         cmd = click.option(
             "--watch/--no-watch",
-            default=True,
+            default=None,
             help="Poll git for changes and auto-rebuild (default: on)",
         )(cmd)
         cmd = click.option(
             "--poll-interval",
             type=int,
-            default=_DEFAULT_POLL_INTERVAL,
+            default=None,
             help=f"Seconds between git poll checks (default: {_DEFAULT_POLL_INTERVAL})",
         )(cmd)
         return cmd
@@ -137,11 +137,12 @@ def _build(workspace: Path, atomic: bool = True) -> bool:
 
     if not atomic:
         logger.info("Building Jekyll site...")
-        rc = subprocess.call(
-            "bundle exec jekyll build", shell=True, cwd=workspace
+        result = subprocess.run(
+            "bundle exec jekyll build", shell=True, cwd=workspace,
+            capture_output=True, text=True,
         )
-        if rc != 0:
-            logger.error("Jekyll build failed")
+        if result.returncode != 0:
+            logger.error(f"Jekyll build failed:\n{result.stderr or result.stdout}")
             return False
         logger.info("Build complete")
         return True
@@ -150,12 +151,13 @@ def _build(workspace: Path, atomic: bool = True) -> bool:
     if staging_dir.exists():
         shutil.rmtree(staging_dir)
 
-    rc = subprocess.call(
+    result = subprocess.run(
         f"bundle exec jekyll build -d {staging_dir}",
         shell=True, cwd=workspace,
+        capture_output=True, text=True,
     )
-    if rc != 0:
-        logger.error("Jekyll build failed, keeping previous site intact")
+    if result.returncode != 0:
+        logger.error(f"Jekyll build failed, keeping previous site intact:\n{result.stderr or result.stdout}")
         if staging_dir.exists():
             shutil.rmtree(staging_dir)
         return False

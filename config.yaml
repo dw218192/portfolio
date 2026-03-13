@@ -4,7 +4,7 @@ repo:
     - "waitress>=3.0"
 
 deploy:
-  port: 8082
+  port: 4000
   log_dir: "{workspace_root}/_log"
 
 clean:
